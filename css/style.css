@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -34,9 +33,17 @@ body {
   align-items: center;
 }
 
-/* .site-logo {
-   margin-right: 108px; 
-} */
+.site-logo {
+  margin-right: 108px;
+  transition: 0.5s;
+}
+.site-logo:hover {
+  opacity: 0.8;
+}
+.site-logo:active {
+  opacity: 0.6;
+}
+
 .logo-img {
   width: 119px;
   height: 56px;
@@ -76,7 +83,7 @@ body {
   color: #ee4248;
 }
 .icon-item:active {
-    color: #ee4248;
+  color: #ee4248;
   opacity: 0.6;
 }
 /* main */
@@ -107,30 +114,30 @@ body {
   font-weight: 600;
 }
 .info-text {
-    width: 520px;
-    font-size: 20px;
-    line-height: 28px;
-    color: #30444E;
-    margin-bottom: 24px;
+  width: 520px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #30444e;
+  margin-bottom: 24px;
 }
 .main_btn {
-    padding: 12px 32px;
-    background: #ee4248;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    font-family: Roboto;
-    font-size: 20px;
-    line-height: 29px;
-    color: #fff;
-     
-    border: none;
-    transition: 0.5s;
+  padding: 12px 32px;
+  background: #ee4248;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 29px;
+  color: #fff;
+
+  border: none;
+  transition: 0.5s;
 }
-.main_btn:hover{
-    opacity: 0.8;
+.main_btn:hover {
+  opacity: 0.8;
 }
-.main_btn:active{
-    opacity: 0.6;
+.main_btn:active {
+  opacity: 0.6;
 }
 /* .main-img1 {
 
@@ -138,41 +145,124 @@ body {
 
 /* repo section */
 .repo-section {
-    background: #F7F7F7;
-    padding: 57px 0;
+  background: #f7f7f7;
+  padding: 57px 0;
 }
 .repo-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-.repo-img{
-    margin-top: -55px;
-    margin-right: 90px;
+.repo-img {
+  margin-top: -55px;
+  margin-right: 90px;
 }
 
 .repo-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .repo-title {
-    width: 454px;
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 42px;
-    color: #1F2E35;
-    margin: 0;
-    margin-bottom: 24px;
+  width: 454px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #1f2e35;
+  margin: 0;
+  margin-bottom: 24px;
 }
 .repo-title_name {
-    color: #ee4248;
+  color: #ee4248;
 }
 .repo-text {
-    width: 520px;
-    font-size: 18px;
-    line-height: 27px;
-    color: #30444E
+  width: 520px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #30444e;
+}
+/* service section */
+.service-section {
+  padding: 116px 0;
+}
+.service-container {
+  text-align: center;
+  padding: 0 50px;
+}
+
+.service-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #1f2e35;
+}
+.service-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.service-list-item:not(:last-child) {
+  margin-right: 45px;
+}
+.service-img {
+  margin-bottom: 16px;
+}
+.service-list_title {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 37px;
+  color: #ee4248;
+  margin-bottom: 15px;
+}
+.service-list-text {
+  width: 400px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #30444e;
+}
+/* contact section */
+.section-contact {
+  margin-top: 110px;
+  margin-bottom: 13px;
+}
+.contact-container {
+  padding-top: 28px;
+  padding-bottom: 11px;
+  display: flex;
+  align-items: center;
+}
+.contact-item:not(:last-child) {
+  margin-right: 47px;
+}
+.contact-logo {
+  margin-bottom: 10px;
+}
+.contact-middle_title {
+  margin: 0;
+  color: #263238;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 8px;
+}
+.contact-text {
+    width:330px;
+  list-style: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  color: #263238;
+ }
+.contact-list_item:not(:last-child) {
+  margin-bottom: 5px;
+}
+.contact-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #263238;
+  margin-bottom: 15px;
 }
 
 /* footer */
