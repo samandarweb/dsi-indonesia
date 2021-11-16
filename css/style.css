@@ -4,6 +4,10 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  background: #fff;
 }
 /* container */
 .container{
@@ -11,4 +15,55 @@ body {
     width: 100%;
     margin: 0 auto;
     padding: 0 30px;
+}
+/* header */
+.site-header {
+    padding: 22px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.site-logo {
+    margin-right: 108px;
+}
+.logo-img {
+    width: 119px;
+    height: 56px;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 116px;
+}
+.nav-link:not(:last-child) {
+   margin-right: 50px;
+}
+.nav-link-item {
+    text-decoration: none;
+    color: rgba(31, 46, 53, 0.8);
+    font-size: 18px;
+    line-height: 21px;
+}
+.header-icon {
+    display: flex;
+    align-items: center;
+    list-style: none;
+   color: rgba(31, 46, 53, 0.8);
+}
+.icon-item:not(:last-child) {
+    margin-right: 24px;
+
+}
+.fas {
+}
+.fa-home {
+}
+.far {
+}
+.fa-envelope {
+}
+.fa-random {
 }
