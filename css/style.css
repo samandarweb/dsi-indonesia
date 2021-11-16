@@ -76,6 +76,7 @@ body {
   color: #ee4248;
 }
 .icon-item:active {
+    color: #ee4248;
   opacity: 0.6;
 }
 /* main */
@@ -131,8 +132,49 @@ body {
 .main_btn:active{
     opacity: 0.6;
 }
-.main-img1 {
+/* .main-img1 {
+
+} */
+
+/* repo section */
+.repo-section {
+    background: #F7F7F7;
+    padding: 57px 0;
 }
+.repo-container {
+    display: flex;
+    align-items: center;
+}
+.repo-img{
+    margin-top: -55px;
+    margin-right: 90px;
+}
+
+.repo-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+}
+.repo-title {
+    width: 454px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    color: #1F2E35;
+    margin: 0;
+    margin-bottom: 24px;
+}
+.repo-title_name {
+    color: #ee4248;
+}
+.repo-text {
+    width: 520px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #30444E
+}
+
 /* footer */
 .site-footer {
   background: #ee4248;
