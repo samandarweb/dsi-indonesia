@@ -57,13 +57,23 @@ body {
     margin-right: 24px;
 
 }
-.fas {
+/* footer */
+.site-footer {
+    background: #EE4248;
+    text-align: center;
+    padding: 22px 0;
 }
-.fa-home {
+.footer-container {
+    margin: auto;
 }
-.far {
+
+
+.footer-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
 }
-.fa-envelope {
-}
-.fa-random {
+.footer-text-item{
+    font-weight: 400;
 }
